@@ -1,0 +1,5 @@
+module CWaylandClient [system][extern_c] {
+    umbrella header "shims.h"
+    link "wayland-client"
+    export *
+}
